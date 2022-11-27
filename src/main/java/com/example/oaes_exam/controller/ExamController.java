@@ -6,6 +6,7 @@ import com.example.oaes_exam.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/exam")
 public class ExamController {
